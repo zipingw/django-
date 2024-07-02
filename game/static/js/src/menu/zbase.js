@@ -17,13 +17,8 @@ class AcGameMenu {
             </div>
             `);
         this.root.$ac_game.append(this.$menu);
-    }
-}
-class AcGame {
-    constructor(id) {
-        this.id = id;
-        this.$ac_game = $('#' + id);
-        this.menu = new AcGameMenu(this);
-
+        this.$single = this.$menu.find('.ac-game-menu-field-item-single')
+        this.$multi = this.$menu.find('.ac-game-menu-field-item-multi')
+        this.$settings = this.$menu.find('.ac-game-menu-field-item-settings')
     }
 }

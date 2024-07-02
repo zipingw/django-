@@ -1,2 +1,29 @@
-.ac_game_menu{
+.ac-game-menu{
+    width: 100%;
+    height: 100%;
+    background-image: url("/static/image/menu/background.gif");
+    background-size: 100% 100%
+}
+
+.ac-game-menu-field{
+    width: 20%;
+    position: relative;
+    top: 40vh;
+    left: 19vw;
+}
+
+.ac-game-menu-field-item {
+    
+}
+
+.ac-game-menu-field-item-single{
+    
+}
+
+.ac-game-menu-field-item-multi{
+    
+}
+
+.ac-game-menu-field-item-settings{
+    
 }
